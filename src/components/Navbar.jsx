@@ -1,7 +1,6 @@
 import { useState }           from 'react'
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
-
+import { close, logo, menu }  from "../assets";
+import { navLinks }           from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home")
@@ -30,7 +29,6 @@ const Navbar = () => {
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle(!toggle)}
         />
-
         <div
           className={`${
             !toggle ? "hidden" : "flex"

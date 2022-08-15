@@ -23,3 +23,4 @@ Copy the .git folder to another folder before initializing Vite Js and copy it b
 - touch src/components/FeedbackCard.jsx src/components/Footer.jsx src/components/GetStarted.jsx
 - touch src/components/Hero.jsx src/components/Navbar.jsx src/components/Stats.jsx
 - touch src/components/Testimonials.jsx src/components/index.js
+
